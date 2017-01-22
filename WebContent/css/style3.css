@@ -1,0 +1,63 @@
+html, body{
+  	font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+  	 background: #FFf;
+  	 -webkit-font-smoothing: antialiased;
+     background:url(../images/baner.jpg) no-repeat 0px 0px;
+    background-position: center center;
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: 100% 100%;   
+-o-background-size: 100% 100%;      
+-webkit-background-size: 100% 100%;   
+background-size: 100% 100%; 
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+/*----start-container----*/
+.container{
+	width:70%;
+}
+/*-----start-header----*/
+.header{
+}
+.logo{
+	float: left;
+	margin-top: 0.6em;
+}
+.logo a{
+	color: #303030;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 2.5em;
+}
+.logo a:hover{
+	text-decoration:none;
+}
+.logo320{
+	display:none;
+}
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+
+.btn
+{
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 80px;
+
+  background-color: #000033;
+  border-color: #9F418F;
+}
